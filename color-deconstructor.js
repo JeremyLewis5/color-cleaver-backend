@@ -2,15 +2,15 @@
  * YOUR CODE HERE *
  ******************/
 if ('red', 'yellow') {
-  return console.log('orange');
+   console.log('orange');
 }
 
 if ('red', 'blue') {
-  return console.log('purple');
+   console.log('purple');
 }
 
 if ('blue', 'yellow') {
-  return console.log('green');
+   console.log('green');
 }
 // Our setup code here. Don't touch!
 if(typeof colorDeconstructor === 'undefined') {

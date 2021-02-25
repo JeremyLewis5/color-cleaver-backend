@@ -2,27 +2,27 @@
  * YOUR CODE HERE *
  ******************/
 if ('red', 'yellow' ) {
-  return console.log('orange');
+   console.log('orange');
 }
 
 if ('yellow', 'red') {
-  return console.log('orange');
+   console.log('orange');
 }
 
 if ('red', 'blue') {
-  return console.log('purple');
+   console.log('purple');
 }
 
 if ('blue', 'red') {
-  return console.log('purple');
+   console.log('purple');
 }
 
 if ('yellow', 'blue') {
-  return console.log('green');
+   console.log('green');
 }
 
 if ('blue', 'yellow') {
-  return console.log('green');
+   console.log('green');
 }
 
 // Our setup code here. Don't touch!

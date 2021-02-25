@@ -2,9 +2,9 @@
  * YOUR CODE HERE *
  ******************/
 if ('orange', 'purple', 'green') {
-  return console.log('true');
+   console.log('true');
 } else {
-  return 'false';
+  console.log('false');
 }
 
 
