@@ -1,6 +1,7 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function colorCombinator(color) {
 if ('red', 'yellow' ) {
    console.log('orange');
 }
@@ -24,7 +25,7 @@ if ('yellow', 'blue') {
 if ('blue', 'yellow') {
    console.log('green');
 }
-
+}
 // Our setup code here. Don't touch!
 if(typeof colorCombinator === 'undefined') {
   colorCombinator = undefined;

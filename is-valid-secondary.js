@@ -1,10 +1,12 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function isValidSecondary(color) {
 if ('orange', 'purple', 'green') {
    console.log('true');
 } else {
   console.log('false');
+}
 }
 
 

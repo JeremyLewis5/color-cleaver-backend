@@ -1,12 +1,13 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function isValidPrimary(color){
 if ('red', 'yellow', 'blue') {
   console.log('true');
 } else {
    console.log('false');
 }
-
+}
 
 
 

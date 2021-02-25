@@ -1,21 +1,23 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-if ('red', 'yellow') {
-   console.log('orange');
+function colorDeconstructor(color) {
+
+   if ('orange') {
+   console.log('red', 'yellow');
 }
 
-if ('red', 'blue') {
-   console.log('purple');
+if ('purple') {
+   console.log('red', 'blue');
 }
 
-if ('blue', 'yellow') {
-   console.log('green');
+if ('green') {
+   console.log('blue', 'yellow');
 }
 // Our setup code here. Don't touch!
 if(typeof colorDeconstructor === 'undefined') {
   colorDeconstructor = undefined;
 }
-
+}
 
 module.exports = colorDeconstructor;
