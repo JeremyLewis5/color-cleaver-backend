@@ -1,6 +1,11 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+if ('red', 'yellow', 'blue') {
+  return console.log('true');
+} else {
+  return console.log('false');
+}
 
 
 
