@@ -2,17 +2,13 @@
  * YOUR CODE HERE *
  ******************/
 function colorDeconstructor(color) {
-
-   if ('orange') {
-   console.log('red', 'yellow');
-}
-
-if ('purple') {
-   console.log('red', 'blue');
-}
-
-if ('green') {
-   console.log('blue', 'yellow');
+   //const orange = "red and yellow"; 
+   if (color ==='orange') {
+   return ("red and yellow");
+} else if (color ==='purple') {
+   return ("red and blue");
+} else if (color ==='green') {
+   return ("blue and yellow");
 }
 // Our setup code here. Don't touch!
 if(typeof colorDeconstructor === 'undefined') {

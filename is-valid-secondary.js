@@ -2,15 +2,13 @@
  * YOUR CODE HERE *
  ******************/
 function isValidSecondary(color) {
-if ('orange', 'purple', 'green') {
-   console.log('true');
+if (color === 'orange' || color === 'green' || color === "purple") {
+  return true;
 } else {
-  console.log('false');
+  return false;
 }
+
 }
-
-
-
 
 // Our setup code here. Don't touch!
 if(typeof isValidSecondary === 'undefined') {

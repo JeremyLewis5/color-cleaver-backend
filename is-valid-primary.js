@@ -1,14 +1,14 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function isValidPrimary(color){
-if ('red', 'yellow', 'blue') {
-  console.log('true');
-} else {
-   console.log('false');
-}
-}
-
+function isValidPrimary (color) {
+  if (color === 'red' || color === 'yellow' || color === "blue") {
+    return true;
+  } else {
+    return false;
+  }
+  
+  }
 
 
 // Our setup code here. Don't touch!
